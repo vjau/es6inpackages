@@ -2,7 +2,7 @@ if (Meteor.isClient) {
   // counter starts at 0
   Session.setDefault('counter', 0);
 
-  System.import('packages/packa/packa.import.js');
+  System.import('vjau:packa/packa.import.js');
 
   Template.hello.helpers({
     counter: function () {
